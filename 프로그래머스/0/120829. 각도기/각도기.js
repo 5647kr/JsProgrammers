@@ -9,4 +9,10 @@ function solution(angle) {
     } else {
       return 4;
     }
+    
+    // 방법2(동료 풀이)
+    // return angle < 90 ? 1 : angle === 90 ? 2 : angle < 180 ? 3 : 4;
+    
+    // 방법3(동료 풀이)
+    // return [0, 90, 91, 180].filter(x => angle>=x).length;
 }
