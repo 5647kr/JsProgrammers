@@ -34,3 +34,9 @@ function solution(n) {
 //   }
 //   return answer;
 // }
+
+// 방법4(동료 풀이)
+// function solution(n) {
+//     var half = Math.floor(n/2);
+//     return half*(half+1);
+// }
