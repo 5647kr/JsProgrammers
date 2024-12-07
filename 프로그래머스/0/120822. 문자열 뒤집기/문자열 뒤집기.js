@@ -20,3 +20,9 @@ function solution(my_string) {
 //     }
 //     return solution(my_string.slice(1)) + my_string[0];
 // }
+
+// 방법4 (동료 풀이)
+// function solution(my_string) {
+//     var answer = [...my_string].reverse().join("");
+//     return answer;
+// }
