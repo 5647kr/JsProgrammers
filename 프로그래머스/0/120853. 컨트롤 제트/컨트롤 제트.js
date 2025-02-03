@@ -6,6 +6,6 @@ function solution(s) {
       arr[i] = "0"
     }
   }
-  var answer = arr.map(Number).reduce((acc, item) => acc + item)
+  var answer = arr.map(Number).reduce((acc, cur) => acc + cur)
   return answer;
 }
